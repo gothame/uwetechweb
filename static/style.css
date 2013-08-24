@@ -1,0 +1,46 @@
+
+
+input,select{ font-size:12px; vertical-align:middle;}
+#top{
+background:#fff;background:#FBFBFB;background:-moz-linear-gradient(top, #FBFBFB 0%, #DADADA 100%);
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #FBFBFB), color-stop(100%, #DADADA));
+background:-webkit-linear-gradient(top, #FBFBFB 0%, #DADADA 100%);background:-o-linear-gradient(top, #FBFBFB 0%, #DADADA 100%);
+background:-ms-linear-gradient(top, #FBFBFB 0%, #DADADA 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FBFBFB', endColorstr='#DADADA',GradientType=0);
+background:linear-gradient(top, #FBFBFB 0%, #DADADA 100%);-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.6);
+-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.6);box-shadow:0 0 10px rgba(0, 0, 0, 0.6);
+/*position:relative;*/
+z-index:9999999999;
+height:70px;width:960px;margin:0 auto;
+}
+#naver{width:960px;height:45px;margin:0 auto;position:relative;}
+#nav{position:absolute;top:20px;margin-left: 0px;}
+#nav >li >a {color:#000;font-size:18px;text-align:center;text-decoration:none;height:32px;line-height:30px;width:90px;margin:0 1px;display:block;float:left;-moz-transition:color 0s linear 0s;-webkit-transition:color 0s linear 0s;-o-transition:color 0s linear 0s;transition:color 0s linear 0s;}
+.container {
+width: 960px;
+}
+.row-fluid  [class*="span"] {
+	margin-left: 0%;
+}
+.row-fluid .span3 {
+margin-left: 2.0%;
+}
+section.socialStuff {
+	margin-left:0px;
+}
+#productlist {
+	margin-left: 0px;
+}
+/*
+#nav.ul.li.a{color:#000;font-size:18px;text-align:center;text-decoration:none;height:32px;line-height:30px;width:90px;margin:0 1px;display:block;float:left;-moz-transition:color 0s linear 0s;-webkit-transition:color 0s linear 0s;-o-transition:color 0s linear 0s;transition:color 0s linear 0s;}
+#nav a:hover{color:#666;}
+#nav ul {
+color:#000;font-size:18px;text-align:center;text-decoration:none;height:32px;line-height:30px;width:90px;margin:0 15px;display:block;float:left;-moz-transition:color 0s linear 0s;-webkit-transition:color 0s linear 0s;-o-transition:color 0s linear 0s;transition:color 0s linear 0s;
+}
+#nav .active > a:hover {
+color: white;
+background-color: #C1D7E2;
+}*/
+
+/*#nav a.active{background:url(http://im-img.qq.com/macqq/images/icon.png?t=20120628) no-repeat 0 0;color:#fff;}*/
+

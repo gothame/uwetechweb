@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% extends "page.html" %}
+{% block content %}
+    <script>
+        $('#about').addClass("active");
+    </script>
+    <section class="row productsBox">
+        <!-- this is where the Media lives, photo & video nd such -->
+        <ul class="breadcrumb">
+            <li>
+                <a href="/">首页</a> <span class="divider">/</span>
+            </li>
+            <li>
+                <a href="#">关于我们</a> <span class="divider">/</span>
+            </li>
+            <li class="active">
+                <a href="#">企业文化</a>
+            </li>
+        </ul>
+
+        <div class=span12>
+            <div class="typo typo-selection">
+
+                <h4>企业价值观：</h4>
+                <p>以人为本，客户至上，分享共赢</p>
+                <h4>  企业理念：</h4>
+                <p>诚信、专注、品质、创新</p>
+                <h4>  企业使命：</h4>
+                <p>提供专业的通信解决方案，实现“美好沟通，和谐社会”</p>
+                <h4>  企业愿景：</h4>
+                <p>不断挑战创新，成为“首屈一指的企业通信建筑师”</p>
+            </div>
+
+        </div>
+    </section>
+{% endblock %}

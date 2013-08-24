@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+{% extends "page.html" %}
+{% block content %}
+    <script>
+        $('#products').addClass("active");
+    </script>
+    <ul class="breadcrumb">
+        <li>
+            <a href="/">首页</a> <span class="divider">/</span>
+        </li>
+        <li class="active">
+            <a href="#">产品</a>
+        </li>
+    </ul>
+    <div class=span2 id =productlist>
+        <ul class="nav nav-tabs nav-stacked">
+            <li class="active">
+                <a href="#">呼叫中心套件</a>
+            </li>
+            <li><a href="calloutsevice.html">外呼营销产品</a></li>
+            <li class="hide"><a href="#">指挥调度系统</a></li>
+            <li class="hide"><a href="#">指挥调度系统</a></li>
+        </ul>
+    </div>
+    <div class=span10>
+        <section class="row productsBox">
+            <!-- this is where the Media lives, photo & video nd such -->
+            <div id=soeoo class =hide>
+                <h1>呼叫中心套件</h1>
+                <h2>CTI IVR CRM IPPBX软件 产品 服务器 板卡呼叫中心 托管呼叫中心</h2>
+                <h3>坐席管理 智能路由 VXML2.0 CRM软件 来电弹屏</h3>
+            </div>
+            <header class="page-header">
+                <h1>
+                    呼叫中心套件
+                    <small>产品列表</small>
+                </h1>
+            </header>
+            <ul class="thumbnails">
+                <li class="span3">
+                    <div class="thumbnail">
+                        <div class=caption>
+                            <h3>CTI 服务器</h3>
+                            <hr>
+                            <ul>
+                                <li>坐席管理</li>
+                                <li>统一排队</li>
+                                <li>智能路由</li>
+                            </ul>
+                            <hr>
+                            <div>
+                                <a href="#" class="btn pull-right">详细了解</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="span3">
+                    <div class="thumbnail">
+                        <div class=caption>
+                            <h3>IVR 服务器</h3>
+                            <hr>
+                            <ul>
+                                <li>VXML标准协议支持</li>
+                                <li>远程WEB应用支持</li>
+                                <li>配合CTI排队 </li>
+                            </ul>
+                            <hr>
+                            <div>
+                                <a href="#" class="btn pull-right">详细了解</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="span3">
+                    <div class="thumbnail">
+                        <div class=caption>
+                            <h3>CRM 系统</h3>
+                            <hr>
+                            <ul>
+                                <li>客户管理</li>
+                                <li>工单管理</li>
+                                <li>坐席支持</li>
+                            </ul>
+                            <hr>
+                            <div>
+                                <a href="#" class="btn pull-right">详细了解</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="span3">
+                    <div class="thumbnail">
+                        <div class=caption>
+                            <h3>IPPBX 服务器</h3>
+                            <hr>
+                            <ul>
+                                <li>SIP协议支持</li>
+                                <li>统一配置</li>
+                                <li>呼叫中心应用数据支持</li>
+                            </ul>
+                            <hr>
+                            <div>
+                                <a href="#" class="btn pull-right">详细了解</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <div class=span12>
+        <section class="row socialStuff">
+            <!-- some text & a twitter unit -->
+
+            <header class="page-header">
+                <h1>
+                    呼叫中心套件介绍
+                </h1>
+            </header>
+            <div class=span12>
+                <h2>简介</h2>
+                <pre>   本呼叫中心套件基于SIP协议提供IP呼叫中心方案，符合下一代通信网络（NGN）的技术发展方向；同传统意义的呼叫中心相比，采用纯IP架构的系统模块，系统采用纯软件架构，坐席也没有必要采用传统的模拟电话，在架构上颠覆了传统系统结构，对系统的建设方式、运营模式和管理带来深刻的影响。</pre>
+                <h2>系统组网图</h2>
+                <img src="/media/img/callcenter.png" alt="">
+            </div>
+             <div class=span12>
+                 <p>UweCTI是整个呼叫中心套件最核心的组件，它将电话交换系统和计算机系统有机地结合起来，充分利用交换机话路交换功能和计算机系统数据处理功能。不仅可以接收来自交换机的呼叫信息(如呼叫电话号码等)，同时可以通过计算机有效地控制交换机的呼叫处理，包括呼叫转移、呼叫中止、智能呼出等服务。
+　　　由于采用先进的一体化架构，CTI服务器可以根据系统规模，选择部署在托管服务器上，或是单独部署，并且最大限度的保护用户投资。在项目中采用软交换中心和CTI服务器分别部署并互相备份的方式，从而保证了系统的高性能和高稳定性。</p>
+ IVR 服务器
+　　<p>UweIVR是整个呼叫中心套件的核心组件之一，它为语音导航，自助话语音服务，呼叫排队，提供基础平台。
+　　IVR是交换机级的前置IVR系统，可模拟后置IVR系统，实现语音、数据的和谐匹配使用，实现呼叫中心与业务信息无缝集成，实现语音、数据的混合处理，实现信息共享和工作协同。</p>
+通讯平台软件
+ IPPBX 服务器（UweSwitch）
+　　<p>IPPBX软件是整个呼叫中心套件中最核心的通讯服务支撑组件。
+　　IP PBX（网络电话交换机）是一种基于IP的电话交换系统，它具有传统PBX交换机的所有功能，它的目标是取代企业内部原先的PBX。
+    这个系统可以完全将语音通信集成到公司的数据网络中，从而建立能够连接分布在全球各办公地点和员工的统一语音数据网络。
+    IP PBX最显著的特征是一个集成通信系统，因此，通过互联网，仅需要单一设备即可为用户提供语音、传真、数据和视频等多种通信方式，建立中、小型的呼叫中心。
+    由于voip技术是将语音以数据包的形式在IP网络中进行传送，因此采用IP-PBX构建的VoIP平台上，用户具有可移动的特性，形象的说就是同一个用户在A地用的是011的号码，到了B地还是011的号码，号码随着人走，IP-PBX还支持语音信箱、多方语音会议、视频会议等传统PBX没有的功能。有助于移动办公和异地协同办公。
+    IP PBX也是IP电话发展的方向。</p>
+ 坐席软件
+　　提供功能强大的坐席软件，集成软件电话，浏览器，用户只需要使用坐席软件登录系统，就可以开展工作，无需登录其他系统，包括电话系统。提供基本的IP语言通话，PSTN通话，呼叫转移，三方会议，DTMF输入等功能。创新的坐席浏览器集成技术，使您可以方便的整合您想要整合的业务系统。
+            </div>
+            <div class=span12>
+                <p>技术白皮书</p>
+                <a href="https://skydrive.live.com/redir?resid=5BBC7F1625A7C86C!1598&authkey=!ADgqhbSQWsOr5XU" TARGET="news">下载</a>
+            </div>
+
+        </section>
+{% endblock %}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% extends "page.html" %}
+{% block content %}
+    <script>
+        $('#about').addClass("active");
+    </script>
+    <section class="row productsBox">
+        <!-- this is where the Media lives, photo & video nd such -->
+        <ul class="breadcrumb">
+            <li>
+                <a href="/">首页</a> <span class="divider">/</span>
+            </li>
+            <li>
+                <a href="#">关于我们</a> <span class="divider">/</span>
+            </li>
+            <li class="active">
+                <a href="#">联系我们</a>
+            </li>
+        </ul>
+
+        <div class=span12>
+            <div class="typo typo-selection">
+                <div class=span1></div>
+                <div class=span3>
+                    <h2>联系我们</h2>
+                <h4>成都总部</h4>
+                    <p>热线 ：18665802636
+                    </p>
+                    <p>Email： <a href="mailto:gotham@uwetech.com">gotham@uwetech.com</a></p>
+                    <p>地址：四川省成都市新都区蜀龙大道南段18号</p>
+                    </div>
+                    <div class=span8>
+                <iframe width="504" height="425" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        src="/media/map.html" style="margin-left: 100px;"></iframe>
+                    </div>
+
+        </div>
+    </section>
+{% endblock %}
